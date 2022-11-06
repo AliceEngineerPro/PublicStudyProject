@@ -1,6 +1,6 @@
 # coding: utf8
 """ 
-@File: demo_config.py
+@File: demo2_config.py
 @Author: Alice(From Chengdu.China)
 @HomePage: https://github.com/AliceEngineerPro
 @CreatedTime: 2022/11/6 21:44
