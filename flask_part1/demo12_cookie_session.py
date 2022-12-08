@@ -12,7 +12,10 @@ app = Flask(import_name=__name__)
 
 @app.route('/')
 def index():
-    return 'Hello World'
+    # cookies 的设置
+    response = make_response('set cookies')
+    response.set_cookie('cookies_virtual', 'python3913')
+    return response
 
 
 if __name__ == '__main__':
